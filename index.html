@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="最新ChatGPT中文版使用教程，提供GPT-4、GPT-4.0、GPT-o1等模型的无限制使用方法，包含可靠ChatGPT中文版镜像网站推荐和注册指南，助您轻松使用chatgpt。">
     <meta name="keywords" content="chatgpt, chatgpt中文版, ChatGPT中文版镜像, GPT-4, GPT-4.0, GPT-o1, AI聊天, OpenAI, ChatGPT教程, Claude, Grok">
-    <meta name="last-modified" content="2025-05-19">
+    <meta name="last-modified" content="2025-05-30">
     <meta name="robots" content="index, follow">
     <meta name="author" content="ChatGPT中文版教程">
     <title>ChatGPT中文版使用教程 - 最新GPT-4.0无限制使用方法</title>
@@ -229,7 +229,8 @@
 
     <div class="container">
         <div class="card">
-            <p class="update-time">更新时间：2025/05/19</p>
+            <!-- 自动更新时间 -->
+            <p class="update-time" id="update-time"></p>
             
             <h2>什么是中文版 ChatGPT？</h2>
             <p><strong>中文版 ChatGPT</strong> 是 OpenAI 针对中文用户需求精心优化的智能对话工具，旨在提供更加流畅和精准的中文服务。与原版相比，中文版 ChatGPT 在多个方面更贴合国内用户的使用习惯：</p>
@@ -268,7 +269,7 @@
 
                 <div class="site-item theme-purple">
                     <div class="site-content">
-                        <h3>Lify Chat</h3>
+                        <h3>Lanjing Chat</h3>
                         <div class="tag-list">
                             <span class="tag">GPT-4.0</span>
                             <span class="tag">GPT-4o</span>
@@ -394,6 +395,22 @@
         
         updateGradient();
         setInterval(updateGradient, 10000);
+
+        // 自动更新时间
+        (function() {
+            function pad(n) {
+                return n < 10 ? '0' + n : n;
+            }
+            var now = new Date();
+            var year = now.getFullYear();
+            var month = pad(now.getMonth() + 1);
+            var day = pad(now.getDate());
+            var today = `${year}/${month}/${day}`;
+            var updateElem = document.getElementById('update-time');
+            if (updateElem) {
+                updateElem.textContent = '更新时间：' + today;
+            }
+        })();
     </script>
 </body>
 </html>
