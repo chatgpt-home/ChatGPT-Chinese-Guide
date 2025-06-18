@@ -1,6 +1,6 @@
 # 【2025年5月更新】 ChatGPT 官方 中文版：国内访问ChatGPT镜像指南（支持GPT-4、GPT-4o、GPT-o1，GPT 4.5 无需翻墙）
 
->更新时间: 2025-05-30 
+>更新时间: 2025-06-19 
  
 想要体验 ChatGPT 中文版，无需翻墙，支持最新 GPT-4 和多种强大功能的完整指南来了！
 
@@ -36,8 +36,8 @@
 
 | 网站名 | 链接 | 支持功能 | 优势特色 | 
 | --- | --- | --- | --- |
-| 易下AI | [https://xsimplechat.com](https://xsimplechat.com) | GPT-4、GPT-o1、Grok 3、Claude、AI绘画、AI 翻译 | 快速响应，无需注册，界面友好。 |
-| Lify | [https://chat.lanjing.pro](https://chat.lanjing.pro) | GPT-4、GPT-4 turbo、GPT-o1、Grok 3、Claude、AI PPT、AI插件、Midjourney绘画 | 多功能支持，适用于各种场景（办公、创意、教育）。 |
+| 易下AI | [https://xsimplechat.com](https://xsimplechat.com) | GPT-4、GPT-o1、Grok 3、Claude、Gemini、AI绘画、AI 翻译 | 快速响应，无需注册，界面友好。 |
+| Lify | [https://chat.lanjingai.org](https://chat.lanjing.pro) | GPT-4、GPT-4 turbo、GPT-o1、Grok 3、Claude、AI PPT、AI插件、Midjourney绘画 | 多功能支持，适用于各种场景（办公、创意、教育）。 |
 | 蓝鲸AI | [https://guide1.lanjing.ai](https://guide1.lanjing.ai) | 支持GPT全系列模型 | 多模型选择，智能推荐，用户体验优异。 |
 
 ---
